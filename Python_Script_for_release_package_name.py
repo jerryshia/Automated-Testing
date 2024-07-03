@@ -9,7 +9,7 @@ class AzureScraper:
     def __init__(self, language):  
         # 初始化实例变量  
         self.language = language  
-        # 格式化URL  
+        # 格式化URL地址  
         self.current_year = datetime.now().year
         self.current_month_fullname = datetime.now().strftime('%m')
         # self.url = "https://azure.github.io/azure-sdk/releases/2024-05/{}.html".format(self.language) 
